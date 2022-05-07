@@ -1,0 +1,42 @@
+[
+  {
+    "id": "d5cff1d0-c8fc-43b9-b232-7bc1da30b88a",
+    "componentType": "ForgotPassword",
+    "route": "/forgot-password",
+    "routeType": "public",
+    "exact": true,
+    "redirect": null
+  },
+  {
+    "id": "bcc2b9ab-3186-4801-93a7-c371786a4eca",
+    "componentType": "ResetPassword",
+    "route": "/reset-password",
+    "routeType": "public",
+    "exact": true,
+    "redirect": null
+  },
+  {
+    "id": "ca835757-c044-4eac-8980-dbbbd55b69c2",
+    "componentType": "EmailConfirmation",
+    "route": "/email-confirmation",
+    "routeType": "public",
+    "exact": true,
+    "redirect": null
+  },
+  {
+    "id": "7c55e0e4-6a41-42fa-8f56-44dee17ae227",
+    "componentType": "LoginPage",
+    "route": "/",
+    "routeType": "public",
+    "exact": true,
+    "redirect": null
+  },
+  {
+    "id": "5d7eded5-d7d2-4caf-a3b4-00cd3b0aeebc",
+    "componentType": "LoginPage",
+    "route": "*",
+    "routeType": "public",
+    "exact": false,
+    "redirect": "/"
+  }
+]
